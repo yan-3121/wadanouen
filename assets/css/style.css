@@ -317,7 +317,13 @@ SP
 @media screen and (max-width:768px) {
     
 }
+.header-logo-outer {
+    width: calc((255.01 / 640) * 100%) ;
+}
 
+.global-nav {
+    width: calc((384.99 / 640) * 100%);
+}
 
 /*
 //SP
