@@ -361,12 +361,34 @@ Tablet
         padding: 92px 0 66px 0;
     }
 
+    .about-inner3 {
+        display: block;
+    }
 
+    .about-text2-outer {
+        width: 100vw;
+        padding: 91px 0 67px 0;
+    }
+
+    .about-image2 {
+        width: 100vw;
+    }
+
+    .ec {
+        height: 600px;
+    }    
     /*
     //about-wrapper-tablet
     */
 
     /*
+    footer
+    */
+    
+
+
+    /*
+    //footer
     */
 
     
