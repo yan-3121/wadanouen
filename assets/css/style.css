@@ -186,13 +186,12 @@ about-wrapper
 
 .about-text1-outer {
   width: 50%;
+  text-align: center;
 }
 
 .about-text1 {
   font-size: 28px;
   line-height: 1.71428571;
-  max-width: 430px;
-  margin: 0 auto;
 }
 
 .about-inner3 {
@@ -349,12 +348,28 @@ Tablet
         margin: 32px auto 0 auto;
     }
 
+    .about-inner2 {
+        display: block;
+    }
+
+    .about-image1 {
+        width: 100vw;
+    }
+
+    .about-text1-outer {
+        width: 100vw;
+        padding: 92px 0 66px 0;
+    }
+
 
     /*
     //about-wrapper-tablet
     */
 
+    /*
+    */
+
     
 /*
-//SP
+//Tablet
 */
