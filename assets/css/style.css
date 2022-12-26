@@ -384,7 +384,18 @@ Tablet
     /*
     footer
     */
-    
+    footer {
+        display: block;
+    }
+
+    .contact-text-outer {
+        width: 100vw;
+        padding: 68px 0 50px 0;
+    }
+
+    .contact-image {
+        width: 100vw;
+    }
 
 
     /*
