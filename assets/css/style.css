@@ -277,28 +277,28 @@ future-wrapper
 /*
 footer
 */
-footer {
+.contact {
   background-color: #eaeaea;
   display: flex;
   align-items: center;
 }
 
-.contact-text-outer {
+.contact__text-outer {
   width: 50%;
 }
 
-.contact-text-inner {
+.contact__text-inner {
   max-width: 443px;
   margin: 0 auto;
   font-size: 22px;
   line-height: 1.68181818;
 }
 
-.contact-image {
+.contact__image {
   width: 50%;
 }
 
-.contact-image > img {
+.contact__image > img {
   width: 100%;
 }
 
@@ -314,11 +314,11 @@ Tablet
     /*
     header-tablet
     */
-    .nav-item {
+    .global-nav__nav-item {
         padding: 0 9px;
     }
 
-    .nav-3 {
+    .global-nav__nav-3 {
         padding-top: 12px;
     }
     /*
