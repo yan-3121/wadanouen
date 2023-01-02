@@ -234,12 +234,12 @@ future-wrapper
   padding: 72px 0 91px 0;
 }
 
-.future-inner {
+.future-wrapper__future-inner {
   max-width: 600px;
   margin: 0 auto;
 }
 
-.future-heading {
+.future-wrapper__future-heading {
   font-size: 28px;
   line-height: 1.71428571;
   color: #fff;
@@ -249,7 +249,7 @@ future-wrapper
   background-color: #242c5c;
 }
 
-.future-title {
+.future-wrapper__future-title {
   font-size: 28px;
   line-height: 1.71428571;
   text-align: center;
@@ -257,15 +257,15 @@ future-wrapper
   margin-bottom: 21px;
 }
 
-.future-text {
+.future-wrapper__future-text {
   padding: 0 3%;
 }
 
-.future-title1 {
+.future-wrapper__future-title1 {
   margin-top: 83px;
 }
 
-.future-description {
+.future-wrapper__future-description {
   font-size: 20px;
   line-height: 1.7;
 }
