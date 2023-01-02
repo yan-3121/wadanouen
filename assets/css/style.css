@@ -328,50 +328,50 @@ Tablet
     /*
     about-wrapper-tablet
     */
-    .about-outer {
+    .about-wrapper__about-outer {
         padding: 27.7px 0 50px 0;
     }
 
-    .about-inner1 {
+    .about-wrapper__about-inner1 {
         display: block;
         text-align: center;
     }
 
-    .about-logo {
+    .about-wrapper__about-logo {
         margin: 0 auto;
     }
 
-    .catch-copy {
+    .about-wrapper__catch-copy {
         margin: 32px auto 0 auto;
     }
 
-    .about-inner2 {
+    .about-wrapper__about-inner2 {
         display: block;
     }
 
-    .about-image1 {
+    .about-wrapper__about-image1 {
         width: 100vw;
     }
 
-    .about-text1-outer {
+    .about-wrapper__about-text1-outer {
         width: 100vw;
         padding: 92px 0 66px 0;
     }
 
-    .about-inner3 {
+    .about-wrapper__about-inner3 {
         display: block;
     }
 
-    .about-text2-outer {
+    .about-wrapper__about-text2-outer {
         width: 100vw;
         padding: 91px 0 67px 0;
     }
 
-    .about-image2 {
+    .about-wrapper__about-image2 {
         width: 100vw;
     }
 
-    .ec {
+    .about-wrapper__ec {
         height: 600px;
     }    
     /*
@@ -381,16 +381,16 @@ Tablet
     /*
     footer
     */
-    footer {
+    .contact {
         display: block;
     }
 
-    .contact-text-outer {
+    .contact__text-outer {
         width: 100vw;
         padding: 68px 0 50px 0;
     }
 
-    .contact-image {
+    .contact__image {
         width: 100vw;
     }
 
