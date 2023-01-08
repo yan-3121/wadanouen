@@ -112,7 +112,7 @@ header {
   width: 100%;
   height: 100vh;
   transform: translateX(100%); 
-  background-color: #000;
+  background-color: #242C5C;
   opacity: .9;
   transition: ease .4s;
 }
