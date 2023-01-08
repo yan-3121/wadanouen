@@ -159,6 +159,7 @@ header {
 .hamburger.active span:nth-child(1) {
   top: 5px;
   transform: rotate(45deg);
+  background-color: #fff;
 }
 
 .hamburger.active span:nth-child(2) {
@@ -168,6 +169,7 @@ header {
 .hamburger.active span:nth-child(3) {
   top: -13px;
   transform: rotate(-45deg);
+  background-color: #fff;
 }
 
 .nav-items {
