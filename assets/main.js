@@ -17,3 +17,4 @@ contact.on('click' , function() {
     ham.removeClass('active');
     nav.removeClass('active');
 });
+
