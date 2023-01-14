@@ -1,7 +1,8 @@
 const ham = $('#js-hamburger');
 const nav = $('#js-nav');
 const future = $('#futureLink');
-const contact = $('#contactLink')
+const contact = $('#contactLink');
+const body = $('body');
 
 ham.on('click' , function () {
     ham.toggleClass('active');
@@ -18,3 +19,6 @@ contact.on('click' , function() {
     nav.removeClass('active');
 });
 
+body.on('click' , function() {
+    body.toggleClass('active')
+});

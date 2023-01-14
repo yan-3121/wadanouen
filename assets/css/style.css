@@ -447,6 +447,11 @@ SP
 /*
 header-SP
 */
+body.active {
+  height: 100%;
+  overflow: hidden;
+}
+
 .global-nav {
   display: none;
   margin: 0;
