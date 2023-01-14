@@ -535,9 +535,28 @@ body.active {
   margin-bottom: 0;
 }
 
+.about-wrapper__catch-copy {
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.about-wrapper__about-text1-outer {
+  width: 100vw;
+  padding: 40px 10px;
+}
+
+.about-wrapper__about-text1 {
+  font-size: 23px;
+}
+
 .about-wrapper__ec-image {
   width: 95%;
   margin: 0 auto;
+}
+
+.about-wrapper__about-text2 {
+  width: 85%;
+  font-size: 23px;
 }
 
 /*
