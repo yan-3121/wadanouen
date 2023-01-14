@@ -43,10 +43,7 @@
       <div class="hero-wrapper">
         <img src="./assets/images/mainvisual@2x.jpg" alt="メインビジュアル" />
         <p class="hero-wrapper__mainvisual-txt">
-          <img
-            src="./assets/images/mainvisual-txt@2x.png"
-            alt="メインビジュアルテキスト"
-          />
+          <img src="./assets/images/mainvisual-txt@2x.png" alt="メインビジュアルテキスト"/>
         </p>
       </div>
       <section class="about-wrapper">
@@ -80,7 +77,12 @@
             <img src="./assets/images/about2@2x.jpg" alt="稲のイメージ" />
           </div>
         </div>
-        <div class="about-wrapper__ec"></div>
+        <div class="about-wrapper__ec">
+          <picture class="about-wrapper__ec-image">
+            <source srcset="./assets/images/parade-pc.png" media="(min-width:520px)">
+            <img src="./assets/images/parade-sp.png" alt="">
+          </picture>
+        </div>
       </section>
       <section class="future-wrapper" id="future">
         <div class="future-wrapper__future-inner">

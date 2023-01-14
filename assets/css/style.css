@@ -254,8 +254,17 @@ about-wrapper
 }
 
 .about-wrapper__ec {
-  height: 300px;
-  background-color: #e84747;
+  background-color: #DF0445;
+}
+
+.about-wrapper__ec-image {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-wrapper__ec-image img {
+  width: 100%;
 }
 
 /*
@@ -407,9 +416,6 @@ Tablet
         width: 100vw;
     }
 
-    .about-wrapper__ec {
-        height: 600px;
-    }    
     /*
     //about-wrapper-tablet
     */
@@ -529,6 +535,10 @@ body.active {
   margin-bottom: 0;
 }
 
+.about-wrapper__ec-image {
+  width: 95%;
+  margin: 0 auto;
+}
 
 /*
 //header-SP
