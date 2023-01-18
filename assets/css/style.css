@@ -561,6 +561,24 @@ body.active {
   font-size: 23px;
 }
 
+.future-wrapper {
+  padding: 72px 10px 91px 10px;
+}
+
+.future-wrapper__future-title {
+  font-size: 23px;
+}
+
+.future-wrapper__future-description {
+  font-size: 18px;
+}
+
+.contact__text-outer {
+  width: 100vw;
+  padding: 68px 0 50px 0;
+  text-align: center;
+}
+
 /*
 //header-SP
 */
