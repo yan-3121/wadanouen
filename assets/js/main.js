@@ -22,3 +22,10 @@ contact.on('click' , function() {
 body.on('click' , function() {
     body.toggleClass('active')
 });
+
+$('.slick01').slick({
+    autoplay: true,
+    dots: false,
+    arrows: false,
+}
+);
