@@ -150,12 +150,13 @@ hero-wrapper
 .hero-wrapper {
   width: 100vw;
   height: calc(100vh - 80px);
-  position: relative;
+  
 }
 
 .hero-wrapper__item {
   width: 100vw;
   height: calc(100vh - 80px);
+  position: relative;
 }
 
 .hero-wrapper__item img {
