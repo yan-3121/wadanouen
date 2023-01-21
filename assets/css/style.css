@@ -191,6 +191,13 @@ hero-wrapper
   animation: zoomUp 10s linear 0s normal both;
 }
 
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
 /*
 //hero-wrapper
 */
@@ -590,7 +597,7 @@ body.active {
   font-size: 23px;
 }
 
-.future-wrapper__future-description {
+.future-wrapper__future-desciption {
   font-size: 18px;
 }
 
@@ -598,6 +605,10 @@ body.active {
   width: 100vw;
   padding: 68px 0 50px 0;
   text-align: center;
+}
+
+.contact__text-inner {
+  font-size: 18px;
 }
 
 /*
