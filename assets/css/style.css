@@ -345,6 +345,15 @@ future-wrapper
   line-height: 1.7;
 }
 
+.future-wrapper__future-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.future-wrapper__future-image img {
+  width: 100%;
+}
+
 /*  
 //future-wrapper
 */
