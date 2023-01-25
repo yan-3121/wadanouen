@@ -53,6 +53,25 @@ button
 */
 
 /*
+fade-in
+*/
+.fadein {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+
+.is-fadein {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/*
+//fade-in
+*/
+/*
 //base-style
 */
 
