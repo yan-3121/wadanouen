@@ -526,10 +526,11 @@ SP
 /*
 header-SP
 */
-body.active {
+/*ハンバーガー開閉時背景固定OFF*/
+/* body.active { 
   height: 100%;
   overflow: hidden;
-}
+}*/
 
 .global-nav {
   display: none;
