@@ -646,9 +646,9 @@ header-SP
 }
 
 .contact__text-outer {
-  width: 100vw;
-  padding: 68px 0 50px 0;
-  text-align: center;
+  width: 80vw;
+  padding: 50px 0 50px 0;
+  margin: 0 auto;
 }
 
 .contact__text-inner {
