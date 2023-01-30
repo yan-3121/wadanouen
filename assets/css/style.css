@@ -205,7 +205,6 @@ hero-wrapper
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100000;
 }
 
 .hero-wrapper__mainvisual-txt img {
