@@ -529,6 +529,7 @@ SP
 /*
 header-SP
 */
+
 /*ハンバーガー開閉時背景固定*/
 body.active { 
   height: 100%;
@@ -536,13 +537,27 @@ body.active {
 }
 
 .global-nav {
-  display: none;
   margin: 0;
   color: #fff;
 }
 
 .global-nav__nav-items {
-  justify-content: center;
+  text-align: center;
+  display: block;
+}
+
+.global-nav__nav-1 {
+  width: 134px;
+  margin: 0 auto 10px auto;
+}
+
+.global-nav__nav-2 {
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  margin: 0 auto;
 }
 
 .nav-items {
