@@ -9,22 +9,21 @@ $(function(){
     ham.on('click' , function () {
         ham.toggleClass('active');
         nav.toggleClass('active');
+        body.toggleClass('active');
     });
     
     future.on('click' , function() {
         ham.removeClass('active');
         nav.removeClass('active');
+        body.removeClass('active');
     });
     
     contact.on('click' , function() {
         ham.removeClass('active');
         nav.removeClass('active');
+        body.removeClass('active');
     });
-    
-    body.on('click' , function() {
-        body.toggleClass('active')
-    });
-    
+  
     $('.slick')
     .on('init', function () {
         $('.slick-slide[data-slick-index="0"]').addClass('add-animation');
@@ -80,13 +79,5 @@ $(function(){
           });
         });
       });
-
-      $('a[href^="#"]').click(function () {
-        const speed = 1000;
-        let href = $(this).attr("href");
-        let target = $(href == "#" || href == "" ? "html" : href);
-        let position = target.offset().top;
-        $("body,html").animate({ scrollTop: position }, speed, "swing");
-        return false;
-      });
 });
+
