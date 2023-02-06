@@ -23,7 +23,8 @@ $(function(){
         nav.removeClass('active');
         body.removeClass('active');
     });
-  
+
+    // slick.js
     $('.slick')
     .on('init', function () {
         $('.slick-slide[data-slick-index="0"]').addClass('add-animation');
@@ -39,8 +40,9 @@ $(function(){
         dots: false,
         arrows: false,
     }
-    )  
+    )
 
+    // slick-animation
     .on({
         beforeChange: function (event, slick, currentSlide, nextSlide) {
           $(".slick-slide", this).eq(nextSlide).addClass("add-animation");
