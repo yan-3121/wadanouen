@@ -1,5 +1,19 @@
 $(function(){
 
+  $('#slideshow').vegas({
+    delay: 7000,
+    transition: 'fade',
+    transitionDuration: 3000,
+    animation: 'kenburns',
+    animationDuration: 10000,
+    slides: [
+      { src: './assets/images/mainvisual@2x.jpg'},
+      { src: './assets/images/mainvisual2.jpg'},
+      { src: './assets/images/mainvisual3.jpg'},
+    ],
+    
+  });
+
     const ham = $('#js-hamburger');
     const nav = $('#js-nav');
     const future = $('#futureLink');
@@ -23,37 +37,6 @@ $(function(){
         nav.removeClass('active');
         body.removeClass('active');
     });
-
-    // slick.js
-    $('.slick')
-    .on('init', function () {
-        $('.slick-slide[data-slick-index="0"]').addClass('add-animation');
-    })
-
-    $('.slick01').slick({
-        autoplay: true,
-        fade: true,
-        speed: 2000,
-        autoplaySpeed: 4000,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        dots: false,
-        arrows: false,
-    }
-    )
-
-    // slick-animation
-    .on({
-        beforeChange: function (event, slick, currentSlide, nextSlide) {
-          $(".slick-slide", this).eq(nextSlide).addClass("add-animation");
-          $(".slick-slide", this).eq(currentSlide).addClass("remove-animation");
-        },
-        afterChange: function () {
-          $(".remove-animation", this).removeClass(
-            "remove-animation add-animation"
-          );
-        },
-      });
 
       $(function () {
         $('.button').prevAll().hide();

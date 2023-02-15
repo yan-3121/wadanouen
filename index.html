@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>和田農園|福島県須賀川市の米農家</title>
     <link rel="stylesheet" href="./assets/css/sanitize.css?ver=3.1">
-    <link rel="stylesheet" href="./assets/css/slick.css?ver=3.1">
+    <!-- vegas.js -->
+    <link rel="stylesheet" href="./assets/css/vegas.min.css">
     <link rel="stylesheet" href="./assets/css/style.css?ver=3.1">
   </head>
   <body>
@@ -41,20 +42,12 @@
       </div>
     </header>
     <main>
-      <div class="hero-wrapper slick01">
-        <div class="hero-wrapper__item">
-          <img src="./assets/images/mainvisual@2x.jpg" alt="メインビジュアル" />
-        </div> 
-        <div class="hero-wrapper__item">
-          <img src="./assets/images/mainvisual2.jpg" alt="メインビジュアル" />
-        </div> 
-        <div class="hero-wrapper__item">
-          <img src="./assets/images/mainvisual3.jpg" alt="メインビジュアル" />
-        </div> 
-      </div>
-      <p class="hero-wrapper__mainvisual-txt">
-        <img src="./assets/images/mainvisual-txt@2x.png" alt="メインビジュアルテキスト"/>
-      </p>
+      <section class="hero__wrapper">
+        <div class="hero__wrapper--slideshow" id="slideshow"></div>
+        <div class="hero__wrapper--text">
+          <img src="./assets/images/mainvisual-txt@2x.png" alt="和田農園">
+        </div>
+      </section>
       <section class="about-wrapper">
         <div class="about-wrapper__about-outer">
           <div class="about-wrapper__about-inner1">
@@ -148,8 +141,8 @@
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <!-- slick.js -->
-    <script src="./assets/js/slick.min.js?ver=3.1"></script>
+    <!-- vegas.js -->
+    <script src="./assets/js/vegas.min.js"></script>
     <script src="./assets/js/main.js?ver=3.1"></script>
   </body>
 </html>

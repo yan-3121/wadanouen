@@ -185,53 +185,43 @@ header {
 /*
 hero-wrapper
 */
-.hero-wrapper {
+.hero__wrapper {
   width: 100vw;
   height: calc(100vh - 80px);
   
 }
 
-.hero-wrapper__item {
-  width: 100vw;
-  height: calc(100vh - 80px);
+#slideshow {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
 }
 
-.hero-wrapper__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero-wrapper__mainvisual-txt {
+.hero__wrapper--text {
+  width: 320px;
   position: absolute;
-  width: 291px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
 }
 
-.hero-wrapper__mainvisual-txt img {
+.hero__wrapper--text img {
   width: 100%;
 }
 
-@keyframes zoomUp {
+.vegas-animation-kenburns {
+  animation: kenburns ease-out;
+}
+
+@keyframes kenburns {
   0% {
     transform: scale(1);
   }
   100% {
-    transform: scale(1.15);
-  }
-}
-
-.add-animation {
-  animation: zoomUp 10s linear 0s normal both;
-}
-
-@-webkit-keyframes wheel {
-  to {
-    opacity: 0;
-    top: 60px;
+    transform: scale(1.5);
   }
 }
 
