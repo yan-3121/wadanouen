@@ -3,7 +3,7 @@ $(function(){
   $('#slideshow').vegas({
     delay: 7000,
     transition: 'fade',
-    transitionDuration: 3000,
+    transitionDuration: 1000,
     animation: 'kenburns',
     animationDuration: 10000,
     slides: [
