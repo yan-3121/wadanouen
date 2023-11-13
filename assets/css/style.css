@@ -392,6 +392,26 @@ future-wrapper
 */
 
 /*
+accsess
+*/
+.map {
+  padding-bottom: 83px;
+}
+
+.access__headline {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: 83px;
+  font-size: 28px;
+  line-height: 1.71428571;
+  color: #fff;
+  text-align: center;
+  padding: 22px 0 17px 0;
+  border-radius: 36px;
+  background-color: #242c5c;
+}
+
+/*
 footer
 */
 .contact {
@@ -667,7 +687,7 @@ Tablet
 /*
 SP
 */
-@media screen and (max-width:520px) {
+@media screen and (max-width:599px) {
 /*
 header-SP
 */
@@ -813,6 +833,10 @@ body.active {
 
 .contact__text-inner {
   font-size: 18px;
+}
+
+.access__headline {
+  max-width: 355px;
 }
 
 /*
