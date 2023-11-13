@@ -41,6 +41,12 @@ address {
   font-style: normal;
 }
 
+.footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding-block: 20px;
+}
+
 /*
 button
 */
@@ -413,10 +419,148 @@ footer
   width: 100%;
 }
 
+
 /*
 //footer
 */
 
+/*
+form
+*/
+.contact_headline {
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+}
+
+.contact_headline::before {
+  content: 'CONTACT';
+  font-size: 16px;
+  color: #c4c4c4;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+
+.form {
+  border-top: 1px solid #c4c4c4;
+  margin-inline: auto;
+}
+
+.form__wrapper {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.form__h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.form__headline {
+  
+}
+
+.form__label {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+._label {
+  font-size: 16px;
+}
+
+._required {
+  font-size: 12px;
+  color: #FF3839;
+}
+
+.form__radio label {
+  position: relative;
+  display: inline-block;
+   padding-left: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: .04em;
+}
+
+.form__radio {
+  margin-top: .8rem;
+  font-size: 14px;
+}
+
+.form__content .form__textarea {
+  height: 24.92188vw;
+  line-height: 1.71;
+  resize: vertical;
+}
+
+.form__textarea {
+  padding: 22px 22px 16px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .04em;
+  background: #f4f4f4;
+  border-radius: 0.6rem;
+  border: 1px solid transparent;
+}
+
+.customer_info_inputs .form__textarea {
+  line-height: .5;
+  width: 65%;
+}
+
+/* buttonタグのリセットCSS（不要な場合、セレクタごと削除してください） */
+button {
+  padding: 0;
+  font-family: inherit;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+/* ボタンのスタイル */
+.buttonRound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 72px;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 320px;
+  height: 64px;
+  padding: 8px 24px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: #242c5c;
+  border-radius: 32px; /* (buttonの高さ / 2) の値 */
+}
+
+@media (any-hover: hover) {
+  .buttonRound {
+    transition: background-color 0.2s;
+  }
+
+  .buttonRound:hover {
+    background-color: #242c5c;
+    opacity: .7;
+  }
+}
+/*
+//form
+*/
 
 /*
 Tablet
