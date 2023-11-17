@@ -47,6 +47,35 @@ address {
   padding-block: 20px;
 }
 
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 555;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader .loader__logo {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.loader .loader__logo img {
+  width: 100%;
+}
+
+.loader__logo--txt {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
 /*
 button
 */
